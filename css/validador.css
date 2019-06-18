@@ -1,0 +1,38 @@
+.form-erro {
+	position: absolute;
+	right: 10px;
+	top: 4px;
+	color: #FFF;
+	font-size: 12px;
+	background: #5b3f17;
+	padding: 1px 3px 1px 3px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	opacity: 0;
+	z-index: 10;
+}
+
+.validacao {
+	width: 100%;
+	display: inline-block;
+}
+
+.validacao, .grupo {
+	position: relative;
+}
+
+.borda-erro {
+	border: 1px solid red!important;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.grupo {
+	padding: 1px;
+}
+
+.grupo.borda-erro {
+	padding: 0px;
+}
